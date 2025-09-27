@@ -152,7 +152,7 @@
                           &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &lt 1 SPACE  &kp ENTER  &kp RALT
             >;
 
-            label = "Theld21";
+            label = "LDT";
         };
 
         number_layer {
