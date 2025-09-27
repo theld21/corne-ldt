@@ -43,49 +43,6 @@ layers:
   - {t: SPACE, h: Number}
   - ENTER
   - {t: ESCAPE, h: Number}
-  Number:
-  - {t: LDT, h: toggle}
-  - {t: LDT_, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '1'
-  - '2'
-  - '3'
-  - DELETE
-  - UP ARROW
-  - BACKSPACE
-  - CAPS
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '4'
-  - '5'
-  - '6'
-  - LEFT
-  - DOWN
-  - RIGHT
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BT CLR ALL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - LEFT SHIFT
-  - LEFT ALT
-  - LEFT ALT
-  - LWIN
-  - LCTRL
-  - {t: SPACE, type: held}
-  - ENTER
-  - LEFT ALT
   LDT_:
   - ESCAPE
   - Q
@@ -129,6 +86,49 @@ layers:
   - {t: SPACE, h: Number}
   - ENTER
   - {t: ESCAPE, h: Number}
+  Number:
+  - {t: LDT, h: toggle}
+  - {t: LDT_, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - DELETE
+  - UP ARROW
+  - BACKSPACE
+  - CAPS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '4'
+  - '5'
+  - '6'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - LEFT SHIFT
+  - LEFT ALT
+  - LEFT ALT
+  - LWIN
+  - LCTRL
+  - {t: SPACE, type: held}
+  - ENTER
+  - LEFT ALT
 combos:
 - p: [37, 36]
   k: ENTER
