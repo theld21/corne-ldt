@@ -77,26 +77,14 @@
             key-positions = <20 40>;
         };
 
-        tog1 {
-            bindings = <&to 1>;
-            key-positions = <18 19>;
-            layers = <0>;
-        };
-
-        tog2 {
-            bindings = <&to 0>;
-            key-positions = <18 19>;
-            layers = <1>;
-        };
-
         nhay {
             bindings = <&kp GRAVE>;
-            key-positions = <30 18>;
+            key-positions = <6 18>;
         };
 
         nga {
             bindings = <&kp TILDE>;
-            key-positions = <30 17>;
+            key-positions = <6 7>;
         };
 
         cong {
@@ -106,27 +94,27 @@
 
         tru {
             bindings = <&kp MINUS>;
-            key-positions = <5 4>;
+            key-positions = <19 20>;
         };
 
         duoi {
             bindings = <&kp UNDERSCORE>;
-            key-positions = <27 9>;
+            key-positions = <27 31 32>;
         };
 
         bang {
             bindings = <&kp EQUAL>;
-            key-positions = <13 29>;
+            key-positions = <13 29 20 21>;
         };
 
         cham-than {
             bindings = <&kp EXCLAMATION>;
-            key-positions = <5 27>;
+            key-positions = <17 5>;
         };
 
         hoac {
             bindings = <&kp PIPE>;
-            key-positions = <18 9>;
+            key-positions = <4 16>;
         };
 
         do-la {
@@ -136,37 +124,37 @@
 
         phan-tram {
             bindings = <&kp PERCENT>;
-            key-positions = <5 10>;
+            key-positions = <4 15>;
         };
 
         sao {
             bindings = <&kp ASTERISK>;
-            key-positions = <13 14>;
+            key-positions = <4 3>;
         };
 
         va {
             bindings = <&kp AMPERSAND>;
-            key-positions = <13 28>;
+            key-positions = <16 15>;
         };
 
         thang {
             bindings = <&kp POUND>;
-            key-positions = <5 18>;
+            key-positions = <5 16>;
         };
 
         xoet {
             bindings = <&kp BACKSLASH>;
-            key-positions = <27 9>;
+            key-positions = <4 17>;
         };
 
         mu {
             bindings = <&kp CARET>;
-            key-positions = <31 7>;
+            key-positions = <4 5>;
         };
 
         a-cong {
             bindings = <&kp AT_SIGN>;
-            key-positions = <13 27>;
+            key-positions = <17 16>;
         };
     };
 
