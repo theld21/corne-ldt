@@ -14,89 +14,89 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <37 38>;
+            key-positions = <37 36>;
         };
 
-        back {
-            bindings = <&kp BACKSPACE>;
-            key-positions = <36 37>;
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <37 38>;
         };
 
         del {
             bindings = <&kp DELETE>;
-            key-positions = <38 36 37>;
+            key-positions = <38 37 36>;
         };
 
         vuong1 {
             bindings = <&kp LEFT_BRACKET>;
             key-positions = <7 19>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         vuong2 {
             bindings = <&kp RIGHT_BRACKET>;
             key-positions = <8 20>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         nhon1 {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <8 19>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         nhon2 {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <20 9>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         tron1 {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <31 20>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         tron2 {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <21 32>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         nhay {
             bindings = <&kp GRAVE>;
             key-positions = <6 18>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         nga {
             bindings = <&kp TILDE>;
             key-positions = <6 7>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         cong {
             bindings = <&kp PLUS>;
             key-positions = <8 7>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         tru {
             bindings = <&kp MINUS>;
             key-positions = <19 20>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         duoi {
             bindings = <&kp UNDERSCORE>;
             key-positions = <31 32>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         bang {
             bindings = <&kp EQUAL>;
             key-positions = <20 21>;
-            layers = <0>;
+            layers = <0 2>;
         };
 
         cham-than {
@@ -235,10 +235,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y        &kp U      &kp I           &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D         &kp F         &kp G        &kp H        &kp J      &kp K           &kp L    &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N        &kp M      &kp COMMA       &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                          &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &lt 1 SPACE  &kp ENTER  &lt 1 LEFT_ALT
+&kp ESCAPE  &kp Q  &kp W  &kp E         &kp R         &kp T        &kp Y        &kp U      &kp I         &kp O    &kp P     &kp BSPC
+&kp TAB     &kp A  &kp S  &kp D         &kp F         &kp G        &kp H        &kp J      &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N        &kp M      &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                          &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &lt 1 SPACE  &kp ENTER  &lt 1 ESCAPE
             >;
 
             label = "LDT";
@@ -264,10 +264,10 @@
         layer_mac {
             label = "LDT_";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R         &kp T           &kp Y        &kp U      &kp I           &kp O    &kp P     &kp BSPC
-&kp TAB     &kp A  &kp S  &kp D      &kp F         &kp G           &kp H        &kp J      &kp K           &kp L    &kp SEMI  &kp SQT
-&kp LSHFT   &kp Z  &kp X  &kp C      &kp V         &kp B           &kp N        &kp M      &kp COMMA       &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                          &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN    &lt 1 SPACE  &kp ENTER  &lt 1 LEFT_ALT
+&kp ESCAPE  &kp Q  &kp W  &kp E      &kp R         &kp T           &kp Y        &kp U      &kp I         &kp O    &kp P     &kp BSPC
+&kp TAB     &kp A  &kp S  &kp D      &kp F         &kp G           &kp H        &kp J      &kp K         &kp L    &kp SEMI  &kp SQT
+&kp LSHFT   &kp Z  &kp X  &kp C      &kp V         &kp B           &kp N        &kp M      &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                          &kp LCTRL  &kp LEFT_ALT  &kp LEFT_WIN    &lt 1 SPACE  &kp ENTER  &lt 1 ESCAPE
             >;
         };
     };
