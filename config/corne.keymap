@@ -49,12 +49,12 @@
 
         cong {
             bindings = <&kp PLUS>;
-            key-positions = <8 19>;
+            key-positions = <8 7>;
         };
 
         bang {
             bindings = <&kp RS(EQUAL)>;
-            key-positions = <7 8>;
+            key-positions = <21 20>;
         };
 
         nhon1 {
@@ -122,16 +122,16 @@
             key-positions = <20 40>;
         };
 
-        tog-arrow {
-            bindings = <&to 2>;
+        tog1 {
+            bindings = <&to 1>;
             key-positions = <18 19>;
             layers = <0>;
         };
 
-        tog-arrow2 {
+        tog2 {
             bindings = <&to 0>;
             key-positions = <18 19>;
-            layers = <2>;
+            layers = <1>;
         };
     };
 
@@ -163,24 +163,13 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp GRAVE       &trans  &trans  &trans          &trans    &trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE  &kp UP_ARROW    &kp DELETE
-&trans          &trans  &trans  &trans          &trans    &trans       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT       &kp DOWN        &kp RIGHT
-&kp LEFT_SHIFT  &trans  &trans  &bt BT_CLR_ALL  &trans    &trans       &kp N7        &kp N8        &kp N9        &kp N0         &kp LEFT_SHIFT  &kp LEFT_ALT
+&kp GRAVE       &trans  &trans  &trans          &trans    &trans       &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DELETE  &kp UP_ARROW    &kp BACKSPACE
+&trans          &trans  &trans  &trans          &trans    &trans       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp LEFT    &kp DOWN        &kp RIGHT
+&kp LEFT_SHIFT  &trans  &trans  &bt BT_CLR_ALL  &trans    &trans       &kp N7        &kp N8        &kp N9        &kp N0      &kp LEFT_SHIFT  &kp LEFT_ALT
                                 &kp LEFT_ALT    &kp LWIN  &kp LCTRL    &kp SPACE     &trans        &kp LEFT_ALT
             >;
 
             label = "Number";
-        };
-
-        arrow_layer {
-            bindings = <
-&trans          &trans  &trans  &trans        &trans        &trans       &trans  &kp F2          &kp UP_ARROW    &kp F12    &trans  &trans
-&trans          &trans  &trans  &trans        &trans        &trans       &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
-&kp LEFT_SHIFT  &trans  &trans  &trans        &trans        &trans       &trans  &trans          &trans          &trans     &trans  &trans
-                                &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &trans  &trans          &trans
-            >;
-
-            label = "Arrow";
         };
     };
 };
