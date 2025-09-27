@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Theld21:
+  LDT:
   - ESCAPE
   - Q
   - W
@@ -53,9 +53,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - BACKSPACE
-  - UP ARROW
   - DELETE
+  - UP ARROW
+  - BACKSPACE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,49 +86,6 @@ layers:
   - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - LEFT ALT
-  Arrow:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F2
-  - UP ARROW
-  - F12
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LEFT ALT
-  - LEFT WIN
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
 combos:
 - p: [37, 38]
   k: ENTER
@@ -144,9 +101,9 @@ combos:
   k: '-'
 - p: [31, 32]
   k: _
-- p: [8, 19]
+- p: [8, 7]
   k: +
-- p: [7, 8]
+- p: [21, 20]
   k: Sft+=
 - p: [8, 19]
   k: '{'
@@ -175,8 +132,8 @@ combos:
 - p: [20, 40]
   k: DOWN ARROW
 - p: [18, 19]
-  k: {t: Arrow, h: toggle}
-  l: [Theld21]
+  k: {t: Number, h: toggle}
+  l: [LDT]
 - p: [18, 19]
-  k: {t: Theld21, h: toggle}
-  l: [Arrow]
+  k: {t: LDT, h: toggle}
+  l: [Number]
