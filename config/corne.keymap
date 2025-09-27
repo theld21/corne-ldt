@@ -27,34 +27,14 @@
             key-positions = <38 36 37>;
         };
 
-        nhay {
-            bindings = <&kp GRAVE>;
-            key-positions = <30 18>;
+        vuong1 {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 19>;
         };
 
-        nga {
-            bindings = <&kp TILDE>;
-            key-positions = <30 17>;
-        };
-
-        tru {
-            bindings = <&kp MINUS>;
-            key-positions = <5 4>;
-        };
-
-        duoi {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <27 9>;
-        };
-
-        cong {
-            bindings = <&kp PLUS>;
-            key-positions = <8 19>;
-        };
-
-        bang {
-            bindings = <&kp EQUAL>;
-            key-positions = <13 29>;
+        vuong2 {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <8 20>;
         };
 
         nhon1 {
@@ -67,26 +47,6 @@
             key-positions = <20 9>;
         };
 
-        vuong1 {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <7 19>;
-        };
-
-        vuong2 {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <8 20>;
-        };
-
-        hoac {
-            bindings = <&kp PIPE>;
-            key-positions = <18 9>;
-        };
-
-        xoet {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <27 9>;
-        };
-
         tron1 {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <31 20>;
@@ -97,22 +57,22 @@
             key-positions = <21 32>;
         };
 
-        l {
+        left {
             bindings = <&kp LEFT_ARROW>;
             key-positions = <19 40>;
         };
 
-        r {
+        right {
             bindings = <&kp RIGHT>;
             key-positions = <21 40>;
         };
 
-        u {
+        up {
             bindings = <&kp UP_ARROW>;
             key-positions = <8 40>;
         };
 
-        d {
+        down {
             bindings = <&kp DOWN_ARROW>;
             key-positions = <20 40>;
         };
@@ -129,14 +89,44 @@
             layers = <1>;
         };
 
+        nhay {
+            bindings = <&kp GRAVE>;
+            key-positions = <30 18>;
+        };
+
+        nga {
+            bindings = <&kp TILDE>;
+            key-positions = <30 17>;
+        };
+
+        cong {
+            bindings = <&kp PLUS>;
+            key-positions = <8 19>;
+        };
+
+        tru {
+            bindings = <&kp MINUS>;
+            key-positions = <5 4>;
+        };
+
+        duoi {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <27 9>;
+        };
+
+        bang {
+            bindings = <&kp EQUAL>;
+            key-positions = <13 29>;
+        };
+
         cham-than {
             bindings = <&kp EXCLAMATION>;
             key-positions = <5 27>;
         };
 
-        thang {
-            bindings = <&kp POUND>;
-            key-positions = <5 18>;
+        hoac {
+            bindings = <&kp PIPE>;
+            key-positions = <18 9>;
         };
 
         do-la {
@@ -149,9 +139,9 @@
             key-positions = <5 10>;
         };
 
-        mu {
-            bindings = <&kp CARET>;
-            key-positions = <31 7>;
+        sao {
+            bindings = <&kp ASTERISK>;
+            key-positions = <13 14>;
         };
 
         va {
@@ -159,9 +149,19 @@
             key-positions = <13 28>;
         };
 
-        sao {
-            bindings = <&kp ASTERISK>;
-            key-positions = <13 14>;
+        thang {
+            bindings = <&kp POUND>;
+            key-positions = <5 18>;
+        };
+
+        xoet {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <27 9>;
+        };
+
+        mu {
+            bindings = <&kp CARET>;
+            key-positions = <31 7>;
         };
 
         a-cong {
