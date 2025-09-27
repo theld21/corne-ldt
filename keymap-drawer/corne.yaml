@@ -42,7 +42,7 @@ layers:
   - LCTRL
   - {t: SPACE, h: Number}
   - ENTER
-  - {t: LEFT ALT, h: Number}
+  - {t: ESCAPE, h: Number}
   Number:
   - {t: LDT, h: toggle}
   - {t: LDT_, h: toggle}
@@ -128,50 +128,50 @@ layers:
   - LEFT WIN
   - {t: SPACE, h: Number}
   - ENTER
-  - {t: LEFT ALT, h: Number}
+  - {t: ESCAPE, h: Number}
 combos:
-- p: [37, 38]
+- p: [37, 36]
   k: ENTER
-- p: [36, 37]
-  k: BACKSPACE
-- p: [38, 36, 37]
+- p: [37, 38]
+  k: SPACE
+- p: [38, 37, 36]
   k: DELETE
 - p: [7, 19]
   k: '['
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [8, 20]
   k: ']'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [8, 19]
   k: '{'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [20, 9]
   k: '}'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [31, 20]
   k: (
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [21, 32]
   k: )
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [6, 18]
   k: '`'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [6, 7]
   k: '~'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [8, 7]
   k: +
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [19, 20]
   k: '-'
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [31, 32]
   k: _
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [20, 21]
   k: '='
-  l: [LDT]
+  l: [LDT, LDT_]
 - p: [17, 5]
   k: '!'
 - p: [4, 16]
