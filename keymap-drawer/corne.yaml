@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  ldt21:
+  Theld21:
   - ESCAPE
   - Q
   - W
@@ -40,10 +40,10 @@ layers:
   - LEFT ALT
   - LEFT WIN
   - LCTRL
-  - {t: SPACE, h: number}
+  - {t: SPACE, h: Number}
   - ENTER
   - RALT
-  number:
+  Number:
   - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,6 +86,49 @@ layers:
   - {t: SPACE, type: held}
   - {t: ▽, type: trans}
   - LEFT ALT
+  Arrow:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F2
+  - UP ARROW
+  - F12
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT ALT
+  - LEFT WIN
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [37, 38]
   k: ENTER
@@ -95,7 +138,7 @@ combos:
   k: DELETE
 - p: [18, 7]
   k: '`'
-- p: [19, 18]
+- p: [7, 6]
   k: '~'
 - p: [19, 20]
   k: '-'
@@ -103,19 +146,37 @@ combos:
   k: _
 - p: [8, 19]
   k: +
-- p: [19, 20, 21]
+- p: [7, 8]
   k: Sft+=
-- p: [9, 20]
+- p: [8, 19]
   k: '{'
-- p: [10, 21]
+- p: [20, 9]
   k: '}'
-- p: [20, 8]
-  k: ''
-- p: [9, 21]
+- p: [7, 19]
+  k: '['
+- p: [8, 20]
   k: ']'
 - p: [6, 18]
   k: '|'
-- p: [9, 22]
+- p: [6, 19]
   k: \
 - p: [6, 30]
   k: '!'
+- p: [31, 20]
+  k: (
+- p: [21, 32]
+  k: )
+- p: [19, 40]
+  k: LEFT ARROW
+- p: [21, 40]
+  k: RIGHT
+- p: [8, 40]
+  k: UP ARROW
+- p: [20, 40]
+  k: DOWN ARROW
+- p: [18, 19]
+  k: {t: Arrow, h: toggle}
+  l: [Theld21]
+- p: [18, 19]
+  k: {t: Theld21, h: toggle}
+  l: [Arrow]
