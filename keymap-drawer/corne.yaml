@@ -42,10 +42,10 @@ layers:
   - LCTRL
   - {t: SPACE, h: Number}
   - ENTER
-  - RALT
+  - {t: LEFT ALT, h: Number}
   Number:
-  - '`'
-  - {t: ▽, type: trans}
+  - {t: LDT, h: toggle}
+  - {t: LDT_, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -56,7 +56,7 @@ layers:
   - DELETE
   - UP ARROW
   - BACKSPACE
-  - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -86,6 +86,49 @@ layers:
   - {t: SPACE, type: held}
   - ENTER
   - LEFT ALT
+  LDT_:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - TAB
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LCTRL
+  - LEFT ALT
+  - LEFT WIN
+  - {t: SPACE, h: Number}
+  - ENTER
+  - {t: LEFT ALT, h: Number}
 combos:
 - p: [37, 38]
   k: ENTER
@@ -95,36 +138,40 @@ combos:
   k: DELETE
 - p: [7, 19]
   k: '['
+  l: [LDT]
 - p: [8, 20]
   k: ']'
+  l: [LDT]
 - p: [8, 19]
   k: '{'
+  l: [LDT]
 - p: [20, 9]
   k: '}'
+  l: [LDT]
 - p: [31, 20]
   k: (
+  l: [LDT]
 - p: [21, 32]
   k: )
-- p: [19, 40]
-  k: LEFT ARROW
-- p: [21, 40]
-  k: RIGHT
-- p: [8, 40]
-  k: UP ARROW
-- p: [20, 40]
-  k: DOWN ARROW
+  l: [LDT]
 - p: [6, 18]
   k: '`'
+  l: [LDT]
 - p: [6, 7]
   k: '~'
+  l: [LDT]
 - p: [8, 7]
   k: +
+  l: [LDT]
 - p: [19, 20]
   k: '-'
-- p: [27, 31, 32]
+  l: [LDT]
+- p: [31, 32]
   k: _
-- p: [13, 29, 20, 21]
+  l: [LDT]
+- p: [20, 21]
   k: '='
+  l: [LDT]
 - p: [17, 5]
   k: '!'
 - p: [4, 16]
@@ -145,3 +192,38 @@ combos:
   k: ^
 - p: [17, 16]
   k: '@'
+- p: [39, 11]
+  k: Ctl+BACKSPACE
+  l: [LDT]
+- p: [39, 19]
+  k: Ctl+LEFT ARROW
+  l: [LDT]
+- p: [39, 20]
+  k: Ctl+DOWN
+  l: [LDT]
+- p: [39, 21]
+  k: Ctl+RIGHT
+  l: [LDT]
+- p: [39, 8]
+  k: Ctl+UP ARROW
+  l: [LDT]
+- p: [39, 11]
+  k: Gui+BACKSPACE
+  l: [LDT_]
+- p: [39, 19]
+  k: Gui+LEFT ARROW
+  l: [LDT_]
+- p: [39, 20]
+  k: Gui+DOWN
+  l: [LDT_]
+- p: [39, 8]
+  k: Gui+UP ARROW
+  l: [LDT_]
+- p: [40, 19]
+  k: LEFT ARROW
+- p: [40, 21]
+  k: RIGHT
+- p: [40, 8]
+  k: UP ARROW
+- p: [40, 20]
+  k: DOWN ARROW
