@@ -34,7 +34,7 @@
 
         nga {
             bindings = <&kp TILDE>;
-            key-positions = <19 18>;
+            key-positions = <7 6>;
         };
 
         tru {
@@ -54,27 +54,27 @@
 
         bang {
             bindings = <&kp RS(EQUAL)>;
-            key-positions = <19 20 21>;
+            key-positions = <7 8>;
         };
 
         nhon1 {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <9 20>;
+            key-positions = <8 19>;
         };
 
         nhon2 {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <10 21>;
+            key-positions = <20 9>;
         };
 
         vuong1 {
-            bindings = <&none>;
-            key-positions = <20 8>;
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <7 19>;
         };
 
         vuong2 {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <9 21>;
+            key-positions = <8 20>;
         };
 
         doc {
@@ -84,12 +84,54 @@
 
         cheo {
             bindings = <&kp BACKSLASH>;
-            key-positions = <9 22>;
+            key-positions = <6 19>;
         };
 
         cham-than {
             bindings = <&kp EXCLAMATION>;
             key-positions = <6 30>;
+        };
+
+        tron1 {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <31 20>;
+        };
+
+        tron2 {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <21 32>;
+        };
+
+        l {
+            bindings = <&kp LEFT_ARROW>;
+            key-positions = <19 40>;
+        };
+
+        r {
+            bindings = <&kp RIGHT>;
+            key-positions = <21 40>;
+        };
+
+        u {
+            bindings = <&kp UP_ARROW>;
+            key-positions = <8 40>;
+        };
+
+        d {
+            bindings = <&kp DOWN_ARROW>;
+            key-positions = <20 40>;
+        };
+
+        tog-arrow {
+            bindings = <&to 2>;
+            key-positions = <18 19>;
+            layers = <0>;
+        };
+
+        tog-arrow2 {
+            bindings = <&to 0>;
+            key-positions = <18 19>;
+            layers = <2>;
         };
     };
 
@@ -109,6 +151,8 @@
 &kp LSHFT   &kp Z  &kp X  &kp C         &kp V         &kp B        &kp N        &kp M      &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                           &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &lt 1 SPACE  &kp ENTER  &kp RALT
             >;
+
+            label = "Theld21";
         };
 
         number_layer {
@@ -124,6 +168,19 @@
 &kp LEFT_SHIFT  &trans  &trans  &bt BT_CLR_ALL  &trans    &trans       &kp N7        &kp N8        &kp N9        &kp N0         &kp LEFT_SHIFT  &kp LEFT_ALT
                                 &kp LEFT_ALT    &kp LWIN  &kp LCTRL    &kp SPACE     &trans        &kp LEFT_ALT
             >;
+
+            label = "Number";
+        };
+
+        arrow_layer {
+            bindings = <
+&trans          &trans  &trans  &trans        &trans        &trans       &trans  &kp F2          &kp UP_ARROW    &kp F12    &trans  &trans
+&trans          &trans  &trans  &trans        &trans        &trans       &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT  &trans  &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans        &trans        &trans       &trans  &trans          &trans          &trans     &trans  &trans
+                                &kp LEFT_ALT  &kp LEFT_WIN  &kp LCTRL    &trans  &trans          &trans
+            >;
+
+            label = "Arrow";
         };
     };
 };
