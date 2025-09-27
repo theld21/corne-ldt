@@ -1,10 +1,50 @@
 layout: {zmk_keyboard: corne}
 layers:
-  ldt21: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, number, SPACE, RET,
-    number, RALT]
-  number:
+  ldt21:
+  - ESCAPE
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
   - TAB
-  - {t: ▽, type: trans}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RIGHT SHIFT
+  - LEFT ALT
+  - LEFT WIN
+  - LCTRL
+  - {t: SPACE, h: number}
+  - ENTER
+  - RALT
+  number:
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -13,81 +53,69 @@ layers:
   - '1'
   - '2'
   - '3'
+  - BACKSPACE
+  - UP ARROW
+  - DELETE
   - {t: ▽, type: trans}
-  - BSPC
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '4'
   - '5'
   - '6'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&studio_unlock'
-  - '&studio_unlock'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - {type: held}
-  - SPACE
-  - RET
-  - {t: ▽, type: trans}
   - '0'
-  char:
-  - TAB
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
-  - BSPC
+  - LEFT SHIFT
+  - LEFT ALT
+  - LEFT ALT
+  - LWIN
   - LCTRL
+  - {t: SPACE, type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - '`'
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - LGUI
-  - {t: ▽, type: trans}
-  - SPACE
-  - RET
-  - {t: ▽, type: trans}
-  - RALT
+  - LEFT ALT
 combos:
 - p: [37, 38]
+  k: ENTER
+- p: [36, 37]
   k: BACKSPACE
+- p: [38, 36, 37]
+  k: DELETE
+- p: [6, 18]
+  k: '`'
+- p: [6, 7]
+  k: '~'
+- p: [18, 19]
+  k: '-'
+- p: [30, 31]
+  k: _
+- p: [18, 7, 20]
+  k: +
+- p: [18, 19, 20]
+  k: Sft+=
+- p: [19, 8]
+  k: '{'
+- p: [20, 9]
+  k: '}'
+- p: [7, 19]
+  k: ''
+- p: [8, 20]
+  k: ']'
+- p: [9, 21]
+  k: '|'
+- p: [9, 22]
+  k: \
+- p: [6, 30]
+  k: '!'
