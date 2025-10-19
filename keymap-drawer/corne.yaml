@@ -154,7 +154,7 @@ combos:
 - p: [21, 32]
   k: )
   l: [LDT, LDT_]
-- p: [6, 18]
+- p: [12, 0]
   k: '`'
   l: [LDT, LDT_]
 - p: [6, 7]
@@ -208,16 +208,16 @@ combos:
   k: Ctl+UP ARROW
   l: [LDT]
 - p: [39, 11]
-  k: Gui+BACKSPACE
+  k: Alt+BACKSPACE
   l: [LDT_]
 - p: [39, 19]
-  k: Gui+LEFT ARROW
+  k: Alt+LEFT ARROW
   l: [LDT_]
 - p: [39, 20]
-  k: Gui+DOWN
+  k: Alt+DOWN
   l: [LDT_]
 - p: [39, 8]
-  k: Gui+UP ARROW
+  k: Alt+UP ARROW
   l: [LDT_]
 - p: [40, 19]
   k: LEFT ARROW
@@ -225,5 +225,12 @@ combos:
   k: RIGHT
 - p: [40, 8]
   k: UP ARROW
-- p: [40, 20]
+- p: [20, 40]
   k: DOWN ARROW
+- p: [6, 18]
+  k: ''''
+- p: [7, 18]
+  k: '"'
+- p: [39, 21]
+  k: Alt+RIGHT
+  l: [LDT_]
