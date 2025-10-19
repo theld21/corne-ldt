@@ -65,7 +65,7 @@
 
         nhay {
             bindings = <&kp GRAVE>;
-            key-positions = <6 18>;
+            key-positions = <12 0>;
             layers = <0 1>;
         };
 
@@ -180,25 +180,25 @@
         };
 
         w-back_ {
-            bindings = <&kp LG(BACKSPACE)>;
+            bindings = <&kp LA(BACKSPACE)>;
             key-positions = <39 11>;
             layers = <1>;
         };
 
         w-l_ {
-            bindings = <&kp LG(LEFT_ARROW)>;
+            bindings = <&kp LA(LEFT_ARROW)>;
             key-positions = <39 19>;
             layers = <1>;
         };
 
         w-d_ {
-            bindings = <&kp LG(DOWN)>;
+            bindings = <&kp LA(DOWN)>;
             key-positions = <39 20>;
             layers = <1>;
         };
 
         w-u_ {
-            bindings = <&kp LG(UP_ARROW)>;
+            bindings = <&kp LA(UP_ARROW)>;
             key-positions = <39 8>;
             layers = <1>;
         };
@@ -220,7 +220,23 @@
 
         d {
             bindings = <&kp DOWN_ARROW>;
-            key-positions = <40 20>;
+            key-positions = <20 40>;
+        };
+
+        nhay-don {
+            bindings = <&kp SQT>;
+            key-positions = <6 18>;
+        };
+
+        nhay-kep {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <7 18>;
+        };
+
+        w-r_ {
+            bindings = <&kp LA(RIGHT)>;
+            key-positions = <39 21>;
+            layers = <1>;
         };
     };
 
